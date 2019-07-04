@@ -24,6 +24,7 @@ android {
         exclude 'META-INF/LICENSE-FIREBASE.txt'
         exclude 'META-INF/NOTICE'
     }
+
 }
 
 dependencies {
@@ -45,7 +46,6 @@ dependencies {
 
     // Firebase
     implementation platform('com.google.firebase:firebase-bom:17.0.0')
-
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.google.firebase:firebase-storage'
     implementation 'com.google.firebase:firebase-auth'
